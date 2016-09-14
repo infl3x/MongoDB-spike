@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB-spike", "MongoDB-spike\MongoDB-spike.csproj", "{FDA8244F-A42B-4151-B334-352E5E6243E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{912DA513-059D-4A4C-87AD-FF271962FF68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDA8244F-A42B-4151-B334-352E5E6243E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA8244F-A42B-4151-B334-352E5E6243E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA8244F-A42B-4151-B334-352E5E6243E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA8244F-A42B-4151-B334-352E5E6243E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{912DA513-059D-4A4C-87AD-FF271962FF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912DA513-059D-4A4C-87AD-FF271962FF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912DA513-059D-4A4C-87AD-FF271962FF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912DA513-059D-4A4C-87AD-FF271962FF68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
