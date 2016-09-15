@@ -1,4 +1,5 @@
 ﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,8 @@ namespace Data.Model
         public double Latitude { get; set; }
         public double Longitude { get; set; }
         public double AltitudeMetres { get; set; }
+        [BsonIgnore]
+        public string IgnoreThisProperty { get; set; }
 
         /// <summary>
         /// Reference documents are represented via an intermediary type called MongoDBRef, which just holds all the info
@@ -24,9 +27,10 @@ namespace Data.Model
 
         public Waypoint()
         {
+            IgnoreThisProperty = "Should not be persisted";
         }
 
-        public Waypoint(double latitude, double longitude, double altitudeMetres, WaypointType waypointType)
+        public Waypoint(double latitude, double longitude, double altitudeMetres, WaypointType waypointType) : this()
         {
             Latitude = latitude;
             Longitude = longitude;
