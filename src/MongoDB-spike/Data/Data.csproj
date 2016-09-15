@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="DataAccess.cs" />
     <Compile Include="Model\Waypoint.cs" />
+    <Compile Include="Model\WaypointType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

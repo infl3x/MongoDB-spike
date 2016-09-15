@@ -10,7 +10,7 @@ namespace MongoDB_spike
     {
         static void Main(string[] args)
         {
-            Data.DataAccess.ReadAndWriteThings();
+            Data.DataAccess.DoThings();
             Console.ReadLine();
         }
     }
